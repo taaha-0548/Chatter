@@ -30,5 +30,5 @@ Chatter is a **terminal-based peer-to-peer (P2P) chat application** that allows 
    Open the terminal in VSCode and run:
 
    ```bash
-   git clone https://github.com/your-username/chatter.git
+   git clone https://github.com/taaha-0548/chatter.git
    cd chatter
