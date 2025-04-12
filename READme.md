@@ -32,3 +32,15 @@ Chatter is a **terminal-based peer-to-peer (P2P) chat application** that allows 
    ```bash
    git clone https://github.com/taaha-0548/Chatter
    cd chatter
+
+
+2. **Install the debian pacakge**:
+
+     ``bash
+   sudo dpkg -i chatter_1.0-1_amd64.deb
+
+
+3. **Run
+      ''bash
+   chatter
+   
