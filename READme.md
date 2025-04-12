@@ -40,7 +40,8 @@ Chatter is a **terminal-based peer-to-peer (P2P) chat application** that allows 
    sudo dpkg -i chatter_1.0-1_amd64.deb
 
 
-3. **Run**
-      ''`bash
+3. **Run**:
+
+      ```bash
    chatter
    
