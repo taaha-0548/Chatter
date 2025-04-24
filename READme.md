@@ -18,30 +18,76 @@ Chatter is a **terminal-based peer-to-peer (P2P) chat application** that allows 
 
 - **GCC** – The GNU Compiler Collection for compiling C programs.
 - **Make** – A build automation tool to simplify the compilation process.
-- **Pthreads** – A POSIX threads library, usually preinstalled on Linux, for multithreading support.
-- **Linux-based system** – The application is designed to run on Linux-based systems (e.g., Ubuntu, Fedora, etc.).
+- **Pthreads** – POSIX threads library (usually preinstalled on Linux).
+- **Linux-based system** – Compatible with Ubuntu, Fedora, and other Linux distros.
 
 ---
 
 ## 📥 Installation
 
-1. **Clone the repository**:
+### 🔁 Option 1: Install via Debian package
 
-   Open the terminal in VSCode and run:
+1. **Clone the repository**:
 
    ```bash
    git clone https://github.com/taaha-0548/Chatter
-   cd chatter
+   cd Chatter
+   ```
 
+2. **Install the package**:
 
-2. **Install the debian pacakge**:
+   ```bash
+   sudo dpkg -i chatter-2.1.deb
+   ```
 
-     ```bash
-   sudo dpkg -i chatter_1.0-1_amd64.deb
+3. **Run Chatter**:
 
-
-3. **Run**:
-
-      ```bash
+   ```bash
    chatter
-   
+   ```
+
+---
+
+### 🔧 Option 2: Build from source
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/taaha-0548/Chatter
+   cd Chatter
+   ```
+
+2. **Build using Make**:
+
+   ```bash
+   make
+   ```
+
+3. **Run the app**:
+
+   ```bash
+   ./chatter
+   ```
+
+---
+
+## 📁 Project Structure
+
+```
+Chatter/
+├── include/
+│   └── chatter.h
+├── src/
+│   ├── commands.c
+│   ├── main.c
+│   ├── network.c
+│   ├── ui.c
+│   └── utils.c
+├── chatter-2.1.deb
+├── Makefile
+└── README.md
+```
+
+---
+
+Enjoy chatting with Chatter! 😄
